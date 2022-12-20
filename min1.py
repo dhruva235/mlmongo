@@ -10,6 +10,7 @@ def test_log_exp():
     except Exception as e:
         logging.debug("stopping due to error")
         raise SensorException(e,sys)  
+    
 
 
 if __name__ == "__main__":
